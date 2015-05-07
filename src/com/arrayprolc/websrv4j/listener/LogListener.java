@@ -12,7 +12,7 @@ public abstract class LogListener {
         log("[INFO]", message);
     }
 
-    public void log(String[] message) {
+    public void log(String[] message) { 
         log("[INFO]", message);
     }
 

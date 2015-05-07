@@ -28,7 +28,7 @@ public class WebServer {
         super();
         this.logger = logger;
         this.listener = listener;
-        this.port = port;
+        this.port = port; 
     }
 
     private boolean checkServer(String ip) {

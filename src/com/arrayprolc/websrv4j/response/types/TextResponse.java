@@ -24,7 +24,7 @@ public class TextResponse extends Response {
     }
 
     @Override
-    public boolean isFile() {
+    public boolean isFile() { 
         return false;
     }
 

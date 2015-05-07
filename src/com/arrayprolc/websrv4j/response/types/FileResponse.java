@@ -23,7 +23,7 @@ public class FileResponse extends Response {
     public String getContentType(String fileName) {
         if ((!fileName.endsWith(".htm")) && (!fileName.endsWith(".html"))) {
             return "Content-Type: application/zip\r\n";
-        }
+        } 
         return getContentType();
     }
 

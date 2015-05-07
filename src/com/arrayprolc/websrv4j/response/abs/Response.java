@@ -23,7 +23,7 @@ public abstract class Response {
         this.inFromClient = inFromClient;
         this.outToClient = outToClient;
     }
-
+ 
     public StatusCode getStatusCode() {
         return statusCode;
     }

@@ -27,7 +27,7 @@ public class WebHandlerThread extends Thread {
             handleResponse();
         } catch (Exception localException) {
             
-        }
+        } 
     }
 
     public void handleResponse() throws Exception {

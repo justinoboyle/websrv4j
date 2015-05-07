@@ -14,7 +14,7 @@ public enum StatusCode {
     /**
      * The request was fulfilled.
      */
-    OK(200, "OK"),
+    OK(200, "OK"), 
     /**
      * Following a POST command, this indicates success, but the textual part of
      * the response line indicates the URI by which the newly created document

@@ -19,7 +19,7 @@ public class WebServerThread extends Thread {
         } catch (IOException e1) {
             e1.printStackTrace();
         }
-        while (running) {
+        while (running) { 
             try {
                 new WebHandlerThread(this.webServer.Server.accept(), this).start();
             } catch (IOException ex) {
